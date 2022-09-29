@@ -24,7 +24,7 @@ const clearCookies = () => {
   const cookies = document.cookie.split(";");
   for (let cookie of cookies) {
     if (cookie) {
-      document.cookie = `${cookie};expires=expires=Thu, 01 Jan 1970 00:00:00 GMT"`;
+      document.cookie = `${cookie};expires=Thu, 01 Jan 1970 00:00:00 GMT"`;
     }
   }
   window.history.back();
